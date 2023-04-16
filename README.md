@@ -1,5 +1,11 @@
-# -data_analytics_engineering
+# data_analytics_engineering
 
-data_analytics_engineering
+Exercicio BootCamp : Data Analytics Engineering
 
-Exercicio BootCamp
+# Para executar os comandos baixar as dependencias:
+
+# obs: pip install
+
+-sqlalchemy
+-openpyxl
+-pandas
