@@ -42,9 +42,18 @@ data_docs_sites:
       class_name: DefaultSiteIndexBuilder
 anonymous_usage_statistics:
   enabled: true
-  data_context_id: 5fb51b47-d647-4b41-8532-dcf431121c38
+  data_context_id: a25241fe-2caf-4596-8a54-dbb5e619cd24
 notebooks:
 include_rendered_content:
   expectation_validation_result: false
-  expectation_suite: false
   globally: false
+  expectation_suite: false
+fluent_datasources:
+  default_pandas_datasource:
+    type: pandas
+    name: default_pandas_datasource
+    assets:
+      '#ephemeral_pandas_asset':
+        name: '#ephemeral_pandas_asset'
+        type: csv
+        filepath_or_buffer: dados\atividade2\train.csv
